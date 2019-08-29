@@ -6,12 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.2/css/all.css" integrity="sha384-rtJEYb85SiYWgfpCr0jn174XgJTn4rptSOQsMroFBPQSGLdOC5IbubP6lJ35qoM9" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Manjari&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="assets/css/style.css">
     <title>Galway Girya Gathering</title>
 </head>
 
 <body>
-	<div class="container">
-		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+	<div class="container-fluid">
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
 			<a class="navbar-brand" href="#">GGG</a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
@@ -38,18 +40,18 @@
 			<h1 class="display-4">Galway Girya Gathering</h1>
 			<p class="lead">Club of Kettlebell Fans</p>
 			<hr class="my-4">
-			<p>Triple guarantee to get you in shape, grow your muscles and and gives you power!</p>
-			<a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+			<p class="guarantee">Triple guarantee to get you in shape, grow your muscles and and gives you power!</p>
+			<button class="btn btn-primary" type="submit">Contact us</button>
 		</div>
 		
 	</div>
 	<hr>
 	
 											<!-- About -->	
-	<div class="container">
+	<div class="container-fluid about">
 	
-			<h2>Who are we?</h2>
-			
+			<h2 class="text-center">Who are we?</h2>
+			<hr>
 			<div class="row">
 				<div class="col-12 col-lg-7">
 				<section>
@@ -70,9 +72,10 @@
 	<!-- /.about -->
 	<hr>
 										<!-- Activities -->
-	<div class="container">
+	<div class="container-fluid">
 		<section class="activities">
-			<h2>Activities:</h2>
+			<h2 class="text-center">Activities:</h2>
+			<hr>
 			<div class="row">
 				<div class="strong-first col-12 col-lg-6">
 					<h3>Strong First <i class="fas fa-award"></i></h3>
@@ -112,7 +115,8 @@
 										<!-- Coaches -->
 	<div class="container">
 		<section class="coaches">
-			<h2>Coaches:</h2>
+			<h2 class="text-center">Coaches:</h2>
+			<hr>
 			<div class="row">
 				<div class="quote col-6">
 					<blockquote class="blockquote">
@@ -157,9 +161,11 @@
 	<hr>
 		
 										<!--Timetable-->
-		<div class="container table-responsive">
+		<h2 class="text-center">TIMETABLE:</h2>
+		<hr>								
+		<div class="container table-responsive table-form">
 			<div class="row">
-			<table class="table col-12">
+			<table class="table table-hover col-12">
 			  <thead>
 				<tr>
 				  <th></th>
@@ -196,12 +202,10 @@
 			  </tbody>
 			</table>
 			</div>
-		</div>
 		<!--/.timetable-->
 		<hr>
 			
 										<!--Contact form-->
-		<div class="container">
 		<section class="form">
 			<form class="needs-validation" novalidate>
 				<div class="form-row">
@@ -245,13 +249,6 @@
 						<input type="text" class="form-control" id="validationTooltip04" placeholder="State" required>
 						<div class="invalid-tooltip">
 						Please provide a valid state.
-						</div>
-					</div>
-					<div class="col-md-3 mb-3">
-						<label for="validationTooltip05">Zip</label>
-						<input type="text" class="form-control" id="validationTooltip05" placeholder="Zip" required>
-						<div class="invalid-tooltip">
-						Please provide a valid zip.
 						</div>
 					</div>
 				</div>
