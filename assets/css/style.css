@@ -1,29 +1,112 @@
 body{
-	font-family: 'Lato', sans-serif;
+	font-family: 'Raleway', sans-serif;
 	background-color: #e0e0e0;
 }
+h2{
+	font-weight: bold;
+}
+.main-page{
+	height: 100vh;
+
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("../images/kettlebell-background.jpg") no-repeat bottom right fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+	display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*Nav*/
+nav{
+	z-index: 1;
+}
+.navbar{
+	background-color: rgba(0,0,0,0.4);
+	width: 100%;
+}
+.navbar-brand span{
+	color: lightgreen;
+	font-size: 24px;
+	font-weight: bold;
+}
+ul li{
+	font-size: 18px;
+	font-weight: bold;
+}
+.nav-right{
+	float: right;
+}
+.nav-icon{
+	font-size: 25px;
+	margin: 2px;
+	margin-right: 7px;
+}
+.nav-icon:hover{
+	color: white;
+}
+.navbar .navbar-toggler{
+	border: 0;
+}
+/*Jumbotron*/
 .jumbotron{
-	background-image: url("../images/kettlebell-background.jpg");
-	color: #d4d4d4;
+	margin-top: 30px;
+	background-color: transparent;
+}
+h1{
+	color: white;
+	text-shadow: 1px 2px black;
 }
 .jumbotron .lead{
+	color: #FF8C00;
 	font-size: 30px;
+	text-shadow: 1px 1px black;
 }
 
 .guarantee{
 	font-size: 19px;
-	color: white;
+	color: #a2a1a1;
 	text-shadow: 1px 2px black;
+	margin-bottom: 40px;
 }
-
+.guarantee:hover{
+	color: white;
+}
+/*Button*/
+.btn-light{
+	background-color: #FF8C00;
+	color: #e8e8e8;;
+}
+.btn-light:hover{
+	background-color: #f4a20b;
+	color: white;
+}
+/*About*/
 .about section{
 	background-color: #b5b5b3;
 	margin: auto;
 	padding: 15px;
 }
+/*Activities*/
+.act-cert{
+	margin-top: 30px;
+	padding-bottom: 20px;
+}
+
+.strong-first, .rkc, .simple-and-sinister, .beast-tamer, .for-martial-arts{
+	border-left: 1px solid black;
+}
+/*Bottom page*/
 .table-form{
-	background-image: url("../images/group.jpg");
-	background-size: cover;
+	height: 100vh;
+
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url("../images/group.jpg") no-repeat bottom right fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 	padding-top: 15px;
 	padding-bottom: 15px;
 }
