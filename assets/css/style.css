@@ -98,6 +98,18 @@ h1{
 .strong-first, .rkc, .simple-and-sinister, .beast-tamer, .for-martial-arts{
 	border-left: 1px solid black;
 }
+
+/*Images*/
+.quote{
+	padding-left: 50px;
+}
+.photo{
+	padding-left: 50px;
+}
+.blockquote-footer{
+	font-size: 15px;
+	font-weight: bold;
+}
 /*Bottom page*/
 .table-form{
 	height: 100vh;
@@ -109,6 +121,8 @@ h1{
     background-size: cover;
 	padding-top: 15px;
 	padding-bottom: 15px;
+	
+	overflow: visible;
 }
 th, label{
 	color: white;
