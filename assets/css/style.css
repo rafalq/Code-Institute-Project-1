@@ -125,3 +125,28 @@ th, label{
 	color: white;
 	text-shadow: 1px 1px black;
 }
+.icon-bottom{
+	font-size: 20px;
+	background-color: white;
+	background: transparent;
+	color: lightgreen;
+	border: none;
+	outline: none;
+	height: 30px;
+	width: 40px;
+}
+.icon-bottom:hover{
+	background-color: lightgreen;
+	color: black;
+}
+.btn-form{
+	font-weight: bold;
+	background-color: black;
+	color: lightgreen;
+	border: 1px solid lightgreen;
+}
+.btn-form:hover{
+	background-color: lightgreen;
+	font-weight: bold;
+	color: black;
+}
