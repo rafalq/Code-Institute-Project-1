@@ -100,15 +100,12 @@ h1{
 }
 
 /*Images*/
-.quote{
-	padding-left: 50px;
-}
-.photo{
-	padding-left: 50px;
-}
 .blockquote-footer{
 	font-size: 15px;
 	font-weight: bold;
+}
+.coaches .row{
+	background-color: #d8d8d8;
 }
 /*Bottom page*/
 .table-form{
