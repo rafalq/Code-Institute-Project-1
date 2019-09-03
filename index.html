@@ -131,10 +131,10 @@
 						<p>Pavel Tsatsouline</p>
 					</footer>	
 				</div>
-				<div class="photo d-none d-lg-block">
+				<div class="photo d-none d-lg-block mr-4">
 					<img src="assets/images/coaches/pavel/pavel-free.jpeg" alt="Pavel image" height=250 width=200>
 				</div>
-				<div class="col-12 col-lg-3 text-right pl-4">
+				<div class="col-12 col-lg-3 text-left">
 					<p class="font-weight-bold">Qualification:</p>
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
 				</div>
@@ -150,10 +150,10 @@
 						<p>Karen Smith</p>
 					</footer>	                  
 				</div>
-				<div class="photo d-none d-lg-block">
+				<div class="photo d-none d-lg-block mr-4">
 					<img src="assets/images/coaches/karen/karen-new.jpg" alt="Karen image" height=250 width=200>
 				</div>
-				<div class="col-12 col-lg-3 text-right pl-4">
+				<div class="col-12 col-lg-3 text-left pl-4">
 					<p class="font-weight-bold">Qualification:</p>
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
 				</div>
@@ -170,10 +170,10 @@
 						<p>Kenneth Jay</p>
 					</footer>	                        
 				</div>
-				<div class="photo d-none d-lg-block">
+				<div class="photo d-none d-lg-block mr-4">
 					<img src="assets/images/coaches/kenneth/kenneth2.jpg" alt="Kenneth image" height=250 width=200>
 				</div>
-				<div class="col-12 col-lg-3 text-right pl-4">
+				<div class="col-12 col-lg-3 text-left pl-4">
 					<p class="font-weight-bold">Qualification:</p>
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
 				</div>
@@ -226,72 +226,49 @@
 			</table>
 			</div>
 		<!--/.timetable-->
-		<hr>
 			
 										<!--Contact form-->
 			<form class="needs-validation" novalidate>
 				<div class="form-row">
-					<div class="col-md-4 mb-3">
+					<div class="col-md-6 mb-3 text-center">
 						<label for="validationTooltip01">First name</label>
 						<input type="text" class="form-control" id="validationTooltip01" placeholder="First name" value="Mark" required>
 						<div class="valid-tooltip">
 						Looks good!
 						</div>
 					</div>
-					<div class="col-md-4 mb-3">
+					<div class="col-md-6 mb-3 text-center">
 						<label for="validationTooltip02">Last name</label>
 						<input type="text" class="form-control" id="validationTooltip02" placeholder="Last name" value="Otto" required>
 						<div class="valid-tooltip">
 							Looks good!
 						</div>
 					</div>
-					<div class="col-md-4 mb-3">
-						<label for="validationTooltipUsername">Username</label>
-						<div class="input-group">
-						<div class="input-group-prepend">
-						<span class="input-group-text" id="validationTooltipUsernamePrepend">@</span>
-						</div>
-						<input type="text" class="form-control" id="validationTooltipUsername" placeholder="Username" aria-describedby="validationTooltipUsernamePrepend" required>
-						<div class="invalid-tooltip">
-						Please choose a unique and valid username.
-						</div>
-						</div>
-					</div>
+					
 				</div>
-				<div class="form-row">
-					<div class="col-md-6 mb-3">
-						<label for="validationTooltip03">City</label>
-						<input type="text" class="form-control" id="validationTooltip03" placeholder="City" required>
-						<div class="invalid-tooltip">
-						Please provide a valid city.
-						</div>
-						</div>
-					<div class="col-md-3 mb-3">
-						<label for="validationTooltip04">State</label>
-						<input type="text" class="form-control" id="validationTooltip04" placeholder="State" required>
-						<div class="invalid-tooltip">
-						Please provide a valid state.
-						</div>
+				<div class="form-row pt-2">
+					<div class="col-md-6 mb-3 text-center">
+						<label for="exampleFormControlInput1">Email address</label>
+						<input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
 					</div>
-					<div class="col-md-3 mb-3">
-						<label class="pl-4">Interested in?</label>
-						<p class="text-white pl-3 pt-1.5">
-						<button class="icon-bottom"><i class="fas fa-award m-1"></i></button>
-						<button class="icon-bottom"><i class="fas fa-dumbbell m-1 pr-3"></i></button>
-						<button class="icon-bottom"><i class="fas fa-dragon m-1 pr-3"></i></button>
-						<button class="icon-bottom"><i class="fas fa-fist-raised m-1"></i></button>
+				
+					<div class="col-md-6 mb-3 text-center">
+						<label class="text-center">Interested in?</label>
+						<p class="text-white pt-1.5">
+						<button class="icon-bottom rounded-circle mr-4"><i class="fas fa-award m-1"></i></button>
+						<button class="icon-bottom rounded-circle mr-4"><i class="fas fa-dumbbell m-1"></i></button>
+						<button class="icon-bottom rounded-circle mr-4"><i class="fas fa-dragon m-1"></i></button>
+						<button class="icon-bottom rounded-circle"><i class="fas fa-fist-raised m-1"></i></button>
 						</p>
 					</div>
 				</div>
-				<button class="btn btn-primary btn-form" type="submit">Submit form</button>
+				<button class="offset-sm-5 offset-lg-0 btn btn-primary btn-form" type="submit">Submit form</button>
 			</form>
 		</div>
 		<!--/.contact-->		
-		<hr>
 		
-										<!--Footer-->
-		<div class="container">
-		<footer>
+								<!--Footer
+		<div class="container footer">
 			<div class="row">
 				<div class="col-12">
 				<p>
@@ -303,9 +280,9 @@
 				</p>
 				</div>
 			</div>
-		</footer>
 		</div>
-		<!-- /.footer -->
+		
+		-->
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>

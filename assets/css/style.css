@@ -132,8 +132,13 @@ th, label{
 	color: lightgreen;
 	border: none;
 	outline: none;
-	height: 30px;
+	height: 40px;
 	width: 40px;
+	text-align: center;
+	outline: none !important;
+}
+.fa-dumbbell, .fa-dragon{
+	transform: translateX(-10%);
 }
 .icon-bottom:hover{
 	background-color: lightgreen;
@@ -143,10 +148,11 @@ th, label{
 	font-weight: bold;
 	background-color: black;
 	color: lightgreen;
-	border: 1px solid lightgreen;
+	border: none;
 }
-.btn-form:hover{
-	background-color: lightgreen;
-	font-weight: bold;
-	color: black;
+.btn-form:hover, .btn-form:active, .btn-form:focus{
+	background-color: lightgreen !important;
+	font-weight: bold !important;
+	color: black !important;
+	box-shadow: none !important;
 }
