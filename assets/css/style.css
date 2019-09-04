@@ -8,7 +8,7 @@ h2{
 .main-page{
 	height: 100vh;
 
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("../images/kettlebell-background.jpg") no-repeat bottom right fixed;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("../images/kettlebell-background.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -17,8 +17,10 @@ h2{
 	display: flex;
     align-items: center;
     justify-content: center;
+	
+	height: 100vh;
+    width: 100vw;
 }
-
 /*Nav*/
 nav{
 	z-index: 1;
@@ -108,7 +110,7 @@ h1{
 	background-color: #d8d8d8;
 }
 /*Bottom page*/
-.table-form{
+.container-bottom{
 	height: 100vh;
 
     background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url("../images/group.jpg") no-repeat bottom right fixed;
@@ -116,9 +118,8 @@ h1{
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-	padding-top: 15px;
 	padding-bottom: 15px;
-	
+	height: 110%;
 	overflow: visible;
 }
 th, label{

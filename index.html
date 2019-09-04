@@ -47,7 +47,7 @@
 		<div class="jumbotron text-center">
 			<h1 class="display-4">Galway Girya Gathering</h1>
 			<p class="lead">Club of Kettlebell Fans</p>
-			<hr class="my-4">
+			<hr class="my-md-4">
 			<p class="guarantee">Triple guarantee to get you in shape, grow your muscles and and gives you power!</p>
 			<button class="btn btn-lg btn-light" type="submit">Join Us</button>
 		</div>	
@@ -186,9 +186,9 @@
 										<!--Timetable-->
 		<h2 class="text-center">TIMETABLE:</h2>
 		<hr>								
-		<div class="container table-responsive table-form py-0">
+		<div class="container container-bottom table-form">
 			<div class="row">
-			<table class="table table-hover col-12">
+			<table class="table-responsive-md py-0 table col-12 mb-0">
 			  <thead>
 				<tr>
 				  <th></th>
@@ -200,71 +200,64 @@
 			  <tbody>
 				<tr>
 				  <th>09 00 - 11 00</th>
-				  <td></td>
-				  <td></td>
-				  <td></td>
+				  <td><button class="icon-bottom rounded-circle"><i class="fas fa-fist-raised m-1"></i></button></td>
+				  <td><button class="icon-bottom rounded-circle mr-4"><i class="fas fa-award m-1"></i></button></td>
+				  <td><button class="icon-bottom rounded-circle"><i class="fas fa-fist-raised m-1"></i></button></td>
 				</tr>
 				<tr>
 				  <th>12 00 - 14 00</th>
-				  <td></td>
-				  <td></td>
-				  <td></td>
+				  <td><button class="icon-bottom rounded-circle mr-4"><i class="fas fa-award m-1"></i></button></td>
+				  <td><button class="icon-bottom rounded-circle mr-4"><i class="fas fa-dumbbell m-1"></i></button></td>
+				  <td><button class="icon-bottom rounded-circle mr-4"><i class="fas fa-dragon m-1"></i></button></td>
 				</tr>
 				<tr>
 				  <th>17 00 - 19 00</th>
-				  <td></td>
-				  <td></td>
-				  <td></td>
+				  <td><button class="icon-bottom rounded-circle mr-4"><i class="fas fa-dumbbell m-1"></i></button></td>
+				  <td><button class="icon-bottom rounded-circle"><i class="fas fa-fist-raised m-1"></i></button></td>
+				  <td><button class="icon-bottom rounded-circle mr-4"><i class="fas fa-dragon m-1"></i></button></td>
 				</tr>
 				<tr>
 				  <th>20 00 - 22 00</th>
+				  <td><button class="icon-bottom rounded-circle mr-4"><i class="fas fa-award m-1"></i></button></td>
+				  <td><button class="icon-bottom rounded-circle mr-4"><i class="fas fa-dragon m-1"></i></button></td>
+				  <td><button class="icon-bottom rounded-circle mr-4"><i class="fas fa-award m-1"></i></button></td>
+				</tr>
+					<th></th>
 				  <td></td>
 				  <td></td>
 				  <td></td>
+				<tr>
 				</tr>
 			  </tbody>
 			</table>
 			</div>
 		<!--/.timetable-->
 			
-										<!--Contact form-->
+			
+			<!--Contact form-->
 			<form class="needs-validation" novalidate>
-				<div class="form-row">
-					<div class="col-md-6 mb-3 text-center">
-						<label for="validationTooltip01">First name</label>
-						<input type="text" class="form-control" id="validationTooltip01" placeholder="First name" value="Mark" required>
+				<div class="row form-row">
+					<div class="col-md-6 text-center">
+						<label for="validationTooltip01 mb-0">Name</label>
+						<input type="text" class="form-control mb-2" id="validationTooltip01" placeholder="First name" value="Mark" required>
 						<div class="valid-tooltip">
 						Looks good!
 						</div>
-					</div>
-					<div class="col-md-6 mb-3 text-center">
-						<label for="validationTooltip02">Last name</label>
-						<input type="text" class="form-control" id="validationTooltip02" placeholder="Last name" value="Otto" required>
-						<div class="valid-tooltip">
-							Looks good!
-						</div>
-					</div>
-					
-				</div>
-				<div class="form-row pt-2">
-					<div class="col-md-6 mb-3 text-center">
 						<label for="exampleFormControlInput1">Email address</label>
 						<input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+						
 					</div>
-				
-					<div class="col-md-6 mb-3 text-center">
-						<label class="text-center">Interested in?</label>
-						<p class="text-white pt-1.5">
-						<button class="icon-bottom rounded-circle mr-4"><i class="fas fa-award m-1"></i></button>
-						<button class="icon-bottom rounded-circle mr-4"><i class="fas fa-dumbbell m-1"></i></button>
-						<button class="icon-bottom rounded-circle mr-4"><i class="fas fa-dragon m-1"></i></button>
-						<button class="icon-bottom rounded-circle"><i class="fas fa-fist-raised m-1"></i></button>
-						</p>
-					</div>
+				<div class="form-group col-12 col-md-6 mt-1 text-center">
+					<label for="exampleFormControlTextarea1">Message</label>
+					<textarea class="form-control" id="exampleFormControlTextarea1" rows="4"></textarea>
+				</div>	
+				<button class="btn-lg btn-primary btn-form" type="submit">Send</button>
 				</div>
-				<button class="offset-sm-5 offset-lg-0 btn btn-primary btn-form" type="submit">Submit form</button>
+				
+	
 			</form>
-		</div>
+			</div>
+		
 		<!--/.contact-->		
 		
 								<!--Footer
