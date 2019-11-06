@@ -5,22 +5,7 @@ body{
 h2{
 	font-weight: bold;
 }
-.main-page{
-	height: 100vh;
 
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("../images/kettlebell-background.jpg") no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    
-	display: flex;
-    align-items: center;
-    justify-content: center;
-	
-	height: 100vh;
-    width: 100vw;
-}
 /*Nav*/
 nav{
 	z-index: 1;
@@ -52,7 +37,24 @@ ul li{
 .navbar .navbar-toggler{
 	border: 0;
 }
+
 /*Jumbotron*/
+.main-page{
+	height: 100vh;
+
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("../images/kettlebell-background.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+	display: flex;
+    align-items: center;
+    justify-content: center;
+	
+	height: 100vh;
+    width: 100vw;
+}
 .jumbotron{
 	margin-top: 30px;
 	background-color: transparent;
@@ -66,60 +68,89 @@ h1{
 	font-size: 30px;
 	text-shadow: 1px 1px black;
 }
-
+.form-contact-link{
+	text-decoration: none !important;
+}
 .guarantee{
 	font-size: 19px;
 	color: #a2a1a1;
+	text-decoration: none;
 	text-shadow: 1px 2px black;
-	margin-bottom: 40px;
+	margin-bottom: 35px;
 }
 .guarantee:hover{
 	color: white;
 }
-/*Button*/
-.btn-light{
-	background-color: #FF8C00;
-	color: #e8e8e8;;
+#first-class-free-text{
+	color: #FF0000;
+	text-decoration: none;
+	font-size: 20px;
+	font-weight: bold;
+	text-shadow: 1px 2px black;
 }
-.btn-light:hover{
-	background-color: #f4a20b;
+#first-class-free-text:hover{
 	color: white;
 }
+
 /*About*/
 .about section{
 	background-color: #b5b5b3;
 	margin: auto;
 	padding: 15px;
 }
+
 /*Activities*/
 .act-cert{
 	margin-top: 30px;
 	padding-bottom: 20px;
 }
-
 .strong-first, .rkc, .simple-and-sinister, .beast-tamer, .for-martial-arts{
 	border-left: 1px solid black;
 }
+.btn--orange{
+	color: white;
+	background-color:#FF8C00;
+}
+.btn--orange:hover, .btn--orange:active, .btn--orange:focus{
+	color: #FF8C00 !important; 
+	background-color:white !important;
+}
+.icon-activities{
+	color: #FF8C00;
+}
 
-/*Images*/
+/*Coaches*/
+h4.list-group-item{
+	background: transparent;
+	border: none;
+}
+li.list-group-item{
+	background: transparent;
+	font-weight: lighter;
+	font-size: 95%;
+	border: none;
+}
+p.coach-paragraph{
+	font-size: 80%;
+}
 .blockquote-footer{
-	font-size: 15px;
-	font-weight: bold;
+	font-size: 12px;
 }
 .coaches .row{
 	background-color: #d8d8d8;
 }
-/*Bottom page*/
+img{
+	width: auto;
+	height: auto;
+}
+/*Timetable*/
 .container-bottom{
-	height: 100vh;
-
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url("../images/group.jpg") no-repeat bottom right fixed;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url("../images/group.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
 	padding-bottom: 15px;
-	height: 110%;
 	overflow: visible;
 }
 th, label{
@@ -145,15 +176,49 @@ th, label{
 	background-color: lightgreen;
 	color: black;
 }
+
+/*Form*/
+.first-class-text{
+	color: lightgreen;
+	text-shadow: 1px 1px black;
+	font-size: 20px;
+}
+input:focus, textarea:focus{
+	box-shadow: none !important;
+	border: 2px solid lightgreen !important;
+}
 .btn-form{
 	font-weight: bold;
 	background-color: black;
 	color: lightgreen;
 	border: none;
+	width: 150px;
 }
 .btn-form:hover, .btn-form:active, .btn-form:focus{
 	background-color: lightgreen !important;
 	font-weight: bold !important;
 	color: black !important;
 	box-shadow: none !important;
+}
+
+/*Footer*/
+.page-footer{
+	background-color: #868686;
+	color: #dcd7d7;
+	font-weight: bold;
+}
+footer i{
+	color: #022f02;
+	font-size: 20px;
+	margin-right: 10px;
+}
+.page-footer span{
+	font-size: 20px;
+	color: #022f02;
+}
+footer i:hover, .copyright-col span:hover{
+	color: lightgreen;
+}
+.icon-text:hover, .copyright-col:hover{
+	color: #fff;
 }
