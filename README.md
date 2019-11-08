@@ -71,13 +71,13 @@ Grey colors are dominant in my website as the background. To emphasize important
 
 ### Skeleton
 
-[Home wireframe](https://rafalq.github.io/Project-1-Gym-Website/blob/master/wireframes/home.jpg)
+[Home wireframe](https://rafalq.github.io/Code-Institute-Project-1/blob/master/wireframes/home.jpg)
 
-[About/Activities wireframe](https://rafalq.github.io/Project-1-Gym-Website/blob/master/wireframes/about-activities.jpg)
+[About/Activities wireframe](https://rafalq.github.io/Code-Institute-Project-1/blob/master/wireframes/about-activities.jpg)
 
-[Coaches wireframe](https://rafalq.github.io/Project-1-Gym-Website/blob/master/wireframes/home.jpg)
+[Coaches wireframe](https://rafalq.github.io/Code-Institute-Project-1/blob/master/wireframes/home.jpg)
 
-[Timetable/Contact wireframe](https://rafalq.github.io/Project-1-Gym-Website/blob/master/wireframes/home.jpg)
+[Timetable/Contact wireframe](https://rafalq.github.io/Code-Institute-Project-1/blob/master/wireframes/home.jpg)
 
 ### Technologies
 
