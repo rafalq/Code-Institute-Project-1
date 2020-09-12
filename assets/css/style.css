@@ -75,7 +75,7 @@ h1{
 	margin-bottom: 35px;
 }
 .guarantee:hover{
-	color: white;
+	color: #fff;
 }
 #first-class-free-text{
 	color: #FF0000;
@@ -85,7 +85,7 @@ h1{
 	text-shadow: 1px 2px #000;
 }
 #first-class-free-text:hover{
-	color: white;
+	color: #fff;
 }
 
 /*About*/
@@ -104,15 +104,18 @@ h1{
 	border-left: 1px solid #000;
 }
 .btn--orange{
-	color: white;
+	color: #fff;
 	background-color:#FF8C00;
 }
 .btn--orange:hover, .btn--orange:active, .btn--orange:focus{
 	color: #FF8C00 !important;
-	background-color:white !important;
+	background-color:#fff !important;
 }
 .icon-activities{
 	color: #FF8C00;
+}
+.pad-for-act{
+	padding: 5px 20px;
 }
 
 /*Coaches*/
@@ -156,7 +159,7 @@ th, label{
 }
 .icon-bottom{
 	font-size: 20px;
-	background-color: white;
+	background-color: #fff;
 	background: transparent;
 	color: rgb(144,238,144);
 	border: none;
@@ -166,12 +169,11 @@ th, label{
 	text-align: center;
 	outline: none !important;
 }
-.fa-dumbbell, .fa-dragon{
-	transform: translateX(-10%);
+.bottom-dumbell, .bottom-dragon{
+	transform: translateX(-20%);
 }
 .icon-bottom:hover{
-	background-color: rgb(144,238,144);
-	color: #000;
+	color: rgb(72 255 72);
 }
 
 /*Form*/
