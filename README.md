@@ -71,13 +71,13 @@ Grey colors are dominant in my website as the background. To emphasize important
 
 ### Skeleton
 
-[Home wireframe](https://rafalq.github.io/Project-1-Gym-Website/blob/master/wireframes/home.jpg)
+[Home wireframe](https://github.com/rafalq/Code-Institute-Project-1/blob/master/wireframes/home.jpg)
 
-[About/Activities wireframe](https://rafalq.github.io/Project-1-Gym-Website/blob/master/wireframes/about-activities.jpg)
+[About/Activities wireframe](https://github.com/rafalq/Code-Institute-Project-1/blob/master/wireframes/about-activities.jpg)
 
-[Coaches wireframe](https://rafalq.github.io/Project-1-Gym-Website/blob/master/wireframes/home.jpg)
+[Coaches wireframe](https://github.com/rafalq/Code-Institute-Project-1/blob/master/wireframes/home.jpg)
 
-[Timetable/Contact wireframe](https://rafalq.github.io/Project-1-Gym-Website/blob/master/wireframes/home.jpg)
+[Timetable/Contact wireframe](https://github.com/rafalq/Code-Institute-Project-1/blob/master/wireframes/home.jpg)
 
 ### Technologies
 
@@ -128,7 +128,7 @@ The hosting platform for the site is Github Pages, deployed directly from the ma
 
 The landing page is `index.html`.
 
-You can run the website locally by cloning the repository or using this command in your terminal `git clone https://github.com/rafalq/Project-1-Gym-Website`.
+You can run the website locally by cloning the repository or using this command in your terminal `git clone https://github.com/rafalq/Code-Institute-Project-1`.
 
 
 ## Content
